@@ -12,7 +12,7 @@ from PIL import Image
 import google.generativeai as genai
 
 
-
+GOOGLE_API_KEY="AIzaSyDHVrqrYy_zCgqH_ksuFLqLD3CHfMk9MKc"
 
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
